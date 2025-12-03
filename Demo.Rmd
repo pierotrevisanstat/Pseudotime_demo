@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 
 ## Introduction
 
-In this demo, we will present an end-to-end analysis pipeline that starts from an HDF5 count data matrix (as typically obtained from the Human Cell Atlas portal) and proceeds through all steps leading to the inference and visualization of cell trajectories using pseudotime analysis with Slingshot.
+In this demo, I will present an end-to-end analysis pipeline that starts from an HDF5 count data matrix (as typically obtained from the Human Cell Atlas portal) and proceeds through all steps leading to the inference and visualization of cell trajectories using pseudotime analysis with Slingshot.
 
 ```{r packages}
 library(ggplot2)
